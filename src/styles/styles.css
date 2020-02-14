@@ -1,0 +1,49 @@
+h2, .post-date {
+  font-family: 'Permanent Marker', cursive;
+}
+
+header {
+  background-image: url('../img/bridge.jpg');
+  background-size: cover;
+  height: 50vh;
+  background-position: center;
+}
+
+nav {
+  background-color: rgba(1, 9, 3, 0.5);
+}
+
+li {
+  display: block;
+}
+
+.blogs:hover {
+  cursor: pointer;
+}
+
+.blogs ul {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+}
+
+.blogs:hover ul {
+  visibility: visible;
+  opacity: 1;
+  margin-top: 0;
+}
+
+ul li {
+  clear: both;
+  width: 100%;
+}
+
+.post-title {
+  font-family: 'Walter Turncoat', cursive;
+}
+
+.container {
+  max-width: 900px;
+}
