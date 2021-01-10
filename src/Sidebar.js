@@ -9,14 +9,14 @@ const Sidebar = props => {
         <div className="social-media-icons">
           <p>
             Twitter:{' '}
-            <a href="https://www.twitter.com/coderungeek" target="_blank">
-              @runcodegeek
+            <a href="https://www.twitter.com/geekypghrunner" target="_blank">
+              @GeekyPGHRunner
             </a>
           </p>
           <p>
             Instagram:{' '}
-            <a href="https://www.instagram.com/coderungeek" target="_blank">
-              @runcodegeek
+            <a href="https://www.instagram.com/geekypghrunner" target="_blank">
+              @GeekyPGHRunner
             </a>
           </p>
         </div>
