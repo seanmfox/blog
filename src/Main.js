@@ -42,7 +42,7 @@ const Main = () => {
 
   return (
     <div className="flex-grow flex-shrink-0 flex flex-wrap mt-3 container">
-      <div className="w-full sm:w-4/5">
+      <div className="w-full sm:w-3/4">
         <Switch>
           <Route exact path="/">
             <AllPosts posts={posts} categories={categories} />
@@ -55,8 +55,8 @@ const Main = () => {
           </Route>
         </Switch>
       </div>
-      <div className="w-full sm:w-1/5 mt-6">
-        <Sidebar />
+      <div className="w-full sm:w-1/4 mt-6">
+        <Sidebar posts={[posts]} />
       </div>
     </div>
   );

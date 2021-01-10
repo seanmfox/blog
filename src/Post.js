@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 const Post = props => {
   return (
-    <article className="flex-1 post-container m-2">
+    <article className="flex-1 post-container m-2 mb-4">
       <p className="post-date pl-3">
         Posted {format(new Date(props.post.publishedAt), 'MMM d, yyyy')}
       </p>
